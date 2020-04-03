@@ -103,6 +103,7 @@ public class SQLite extends Database {
             + "y INTEGER NOT NULL,"
             + "z INTEGER NOT NULL,"
             + "price FLOAT NOT NULL,"
+            + "taxed_price FLOAT NOT NULL,"
             + "type TINYTEXT NOT NULL)";
     }
 
